@@ -1,0 +1,333 @@
+/*#############################################################
+Name: Transparentia
+Date: 2006-08-20
+Description: Simple, lightweight and slightly blue.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #36C;
+}
+a:hover {
+	color: #06F;
+}
+body {
+	background: #EEEEEE ;
+	color: #444;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	margin: 0;
+}
+input {
+	color: #555;
+	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+}
+cite,code,ul {
+	font-size: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+p {
+	font-size: 0.9em;
+	padding-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+code {
+	background: url(backoffice/images/bgcode.gif);
+	border: 1px solid #F0F0F0;
+	border-left: 6px solid #39F;
+	color: #555;
+	display: block;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+cite {
+	background: url(backoffice/images/quote.gif) no-repeat;
+	color: #666;
+	display: block;
+	font: normal 1.3em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+h1,h2,h3 {
+	color: #367EA6;
+	padding-top: 6px;
+}
+
+/* misc */
+.clearer {
+	clear: both;
+}
+
+/* structure */
+.container {
+	background: url(backoffice/images/bgcontainer.gif) repeat-y;
+	margin: 0 auto;
+	padding-bottom: 6px;
+	width: 767px;
+}
+.header {
+	background: url(backoffice/images/cabecera.png) repeat-x;
+}
+
+.header table {
+	font-size: 1.3em;
+	width: 100%;
+}
+
+/* title */
+.title h1 {
+	color: #FFFFFF;
+	font: normal 3em Verdana,sans-serif;
+	height: 84px;
+	line-height: 84px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+/* navigation */
+.navigation {
+	margin-bottom: 4px;
+}
+.navigation a {
+	background-color: #4A91C3;
+	color: #FFFFFF;
+	float: left;
+	font: bold 1.2em "Trebuchet MS",sans-serif;
+	padding: 8px 0;
+	width: 19%;
+	border-right: 1px solid #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+/* main */
+.main {
+	clear: both;
+	padding: 8px 18px;
+}
+
+/* main left */
+.sidenav h1,.sidenav ul {
+	padding-left: 12px;
+}
+.sidenav {
+	background: #EEEEEE;
+	border: 1px solid #E5E5E5;
+	float: left;
+	width: 200px;
+}
+.sidenav h1 {
+	color: #666;
+	font-size: 1.3em;
+	height: 20px;
+	margin-top: 1.2em;
+}
+.sidenav ul {
+	border-top: 1px solid #FAFAFA;
+	background: url(backoffice/images/bgul.gif) repeat-x;
+	margin: 0;
+	padding: 0;
+}
+.sidenav li {
+	border: 1px solid #FAFAFA;
+	border-top: none;
+	list-style: none;
+	margin: 0;
+}
+.sidenav li a {
+	color: #777;
+	display: block;
+	font-size: 1.1em;
+	padding: 3px 6px 3px 14px;
+	text-decoration: none;
+}
+.sidenav li a:hover {
+	color: #111;
+}
+
+/* content */
+.content {
+	float: right;
+	width: 520px;
+}
+
+.content2 {
+	float: right;
+	width: 520px;
+}
+
+.content img {
+	border: 0;
+}
+.content .item {
+	padding: 6px 12px;
+	border: 1px solid #EEEEEE;
+	background: #FFFFFF;
+	margin-bottom: 8px;
+}
+
+.item #resultado1 {
+	background: #E5E5F5;
+}
+
+.item #resultado2 {
+	background: #E5E5E5;
+}
+
+.item #optSelected {
+	background: #FFF3A7;
+}
+
+.content .descr {
+	color: #333;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(backoffice/images/li.gif);
+	margin-left: 18px;
+}
+
+.content table {
+	font-size: 1.3em;
+	width: 100%;
+}
+
+.content td {
+	padding-top:6px;
+	padding-right:3px;
+	padding-left:3px;
+}
+
+/* search form */
+form {
+	padding: 0 0 6px 8px;
+}
+.styled {
+	border: 1px solid #DDD;
+	padding: 4px;
+}
+.button {
+	background: url(backoffice/images/search.gif) no-repeat left bottom;
+	border: none;
+	height: 27px;
+	width: 27px;
+}
+
+/* Calendar */
+
+.calendar table {
+	background: #FFFFFF;
+	border: 1px solid #DBDBDB;
+	text-align: center;
+}
+
+.calendar thead {
+	background: #DBDBDB;
+}
+
+.calendar tbody td {
+	background: #FFFFFF;
+	border: 1px solid #DBDBDB;
+	padding: 3px;
+}
+
+.calendar #prev {
+	text-align: left;
+}
+
+.calendar #next {
+	text-align: right;
+}
+
+.calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.calendar #ocupado {
+	background: #FFF3A7;
+	border: 1px solid #FF7400;
+	font-weight: bold;
+	color: #FF7400
+}
+
+.calendar #libre {
+	background: #CCFFFF;
+	border: 1px solid #00FF99;
+	font-weight: bold;
+	color: #00FF99
+}
+
+.calendar #reservado {
+	background: #EFFFFF;
+	border: 1px solid #7A7D7D;
+	font-weight: bold;
+	color: #7A7D7D
+}
+
+.calendar #vacio {
+	background: #CCFFFF;
+	border: 1px solid #00FF99;
+	font-weight: bold;
+	color: #00FF99
+}
+
+/* footer */
+.footer {
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	color: #666;
+	font-size: 1.1em;
+	margin: 0 auto;
+	text-align: center;
+	padding: 6px;
+	width: 720px;
+}
+.footer a {
+	color: #36C;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+
+.error {
+	position: absolute;
+	/*nos posicionamos en el centro del navegador*/
+	top:25%;
+	left:50%;
+	/*determinamos una anchura*/
+	width:400px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+	margin-left:-200px;
+	/*determinamos una altura*/
+	height:300px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+	margin-top:-150;
+	border:1px solid #808080;
+	background-color: #4999c4;
+	/*IE*/
+	filter: alpha(opacity=90);
+	/*FireFox Opera*/
+	opacity: .90;
+	padding:5px;
+	font-size: 12px;
+}

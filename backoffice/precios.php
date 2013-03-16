@@ -1,0 +1,33 @@
+<?php
+$priceMonths_1 = 600;
+$pricePlusMonths_1 = 20;
+$price4Weeks_1 = 600;
+$pricePlus4Weeks_1 = 0;
+$price3Weeks_1 = 500;
+$pricePlus3Weeks_1 = 25;
+$price2Weeks_1 = 400;
+$pricePlus2Weeks_1 = 30;
+$price1Week_1 = 250;
+$pricePlus1Week_1 = 36;
+$priceMonths_2 = 700;
+$pricePlusMonths_2 = 25;
+$price4Weeks_2 = 700;
+$pricePlus4Weeks_2 = 0;
+$price3Weeks_2 = 600;
+$pricePlus3Weeks_2 = 30;
+$price2Weeks_2 = 500;
+$pricePlus2Weeks_2 = 36;
+$price1Week_2 = 350;
+$pricePlus1Week_2 = 50;
+$priceMonths_3 = 800;
+$pricePlusMonths_3 = 30;
+$price4Weeks_3 = 800;
+$pricePlus4Weeks_3 = 0;
+$price3Weeks_3 = 650;
+$pricePlus3Weeks_3 = 35;
+$price2Weeks_3 = 550;
+$pricePlus2Weeks_3 = 40;
+$price1Week_3 = 400;
+$pricePlus1Week_3 = 60;
+$priceSSyF = 65;
+?>
